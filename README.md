@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EventHub
 
-## Getting Started
+EventHub is a full-stack event RSVP platform built with Next.js.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+EventHub lets users create events, share RSVP links, collect guest responses, and track attendance from a clean dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is being built as a portfolio-ready full-stack web app to show CRUD functionality, authentication, database usage, and email automation.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Create event pages
+- Share public RSVP links
+- Collect guest responses
+- Track Yes, No, and Maybe RSVPs
+- Planned: user authentication
+- Planned: PostgreSQL database with Prisma
+- Planned: confirmation emails using Resend
+- Planned: protected dashboard for event hosts
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- React
+- Tailwind CSS
+- PostgreSQL
+- Prisma
+- Auth.js
+- Resend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Status
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is currently in development.
 
-## Deploy on Vercel
+Current progress:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js project setup complete
+- Landing page created
+- GitHub repository connected
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Goal
+
+The goal of EventHub is to build a clean full-stack CRUD application that helps event hosts manage RSVPs and guest lists in one place.
+
+## Future Improvements
+
+- User sign up and login
+- Event create, read, update, and delete functionality
+- RSVP confirmation emails
+- Guest filtering by RSVP status
+- Dashboard analytics
+- Mobile-friendly UI polish
